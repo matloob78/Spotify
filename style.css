@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:lavender;
+}
+nav{
+    font-family: sans-serif;
+}
+nav ul{
+    display: flex;
+     align-items: center;
+    list-style-type: none;
+    height: 60px;
+    background-color:black;
+    color: aliceblue;
+}
+nav ul li{
+    padding: 0 12PX;
+}
+.brand img{
+    width: 44px;
+    padding: 0 8px;
+
+}
+.brand{
+    display:flex ;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.3rem;
+
+}
+.container{
+    min-height: 60vh;
+    background-color: rgb(27, 96, 199);
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 12px;
+    padding: 30px;
+    background-image: url('nashid.jpg');
+}
+#myProgressBar{
+    width:80vw ;
+
+}
+.bottom{
+    position: sticky;
+    height: 120px;
+    background-color: black;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+    
+
+}
+.icons{
+    margin-top: 14px;
+}
+.icons i{
+    cursor: pointer;
+}
+.nashidItem{
+    height: 50px;
+    display: flex;
+    background-color: aliceblue;
+    width: 80%;
+    color: black;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+     border-radius: 30px;
+}
+.nashidItem img{
+    width:43px;
+    margin: 0 23px;
+}
